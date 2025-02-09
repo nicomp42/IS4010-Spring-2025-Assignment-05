@@ -11,7 +11,7 @@ if __name__ == "__main__":
     print(len(cars), "rows read.")
     print("First:", cars[0])
     print("Last:", cars[-1])
-    print("------------------------")
+    print("------------------------") 
     desired_model = "Camry"
     result = get_count_by_model(cars, desired_model)
     print(desired_model, "count:", result[0])
