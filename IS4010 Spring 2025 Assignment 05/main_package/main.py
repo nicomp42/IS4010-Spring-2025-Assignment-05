@@ -4,7 +4,7 @@
 
 
 from data_utilities_package.data_utilities import *
-from car_utilities_package.car_utilities import *
+from car_utilities_package.car_utilities import * 
 
 if __name__ == "__main__":
     cars = read_car_price_dataset()
